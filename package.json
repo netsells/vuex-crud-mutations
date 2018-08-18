@@ -1,5 +1,5 @@
 {
-    "name": "vuex-crud-mutations",
+    "name": "@netsells/vuex-crud-mutations",
     "version": "0.0.0",
     "description": "Easily scaffold Vuex CRUD mutations",
     "homepage": "",
