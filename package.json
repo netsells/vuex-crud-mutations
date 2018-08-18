@@ -79,7 +79,9 @@
     },
     "repository": "git@github.com:netsells/vuex-crud-mutations.git",
     "jest": {
-        "testEnvironment": "node"
+        "testEnvironment": "node",
+        "coverageDirectory": "./coverage/",
+        "collectCoverage": true
     },
     "license": "MIT",
     "dependencies": {
