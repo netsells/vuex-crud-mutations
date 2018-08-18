@@ -1,0 +1,9 @@
+{
+    "generator-node": {
+        "promptValues": {
+            "authorName": "Sam Turrell",
+            "authorEmail": "sam.turrell@netsells.co.uk",
+            "authorUrl": ""
+        }
+    }
+}

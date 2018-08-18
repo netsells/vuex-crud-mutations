@@ -1,0 +1,25 @@
+{
+  "projectName": "vuex-crud-mutations",
+  "projectOwner": "netsells",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "samturrell",
+      "name": "Sam Turrell",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5918348?v=4",
+      "profile": "http://samturrell.co.uk",
+      "contributions": [
+        "code",
+        "doc",
+        "example",
+        "test"
+      ]
+    }
+  ]
+}
