@@ -4,7 +4,7 @@
 
 [![npm](https://img.shields.io/npm/v/@netsells/vuex-crud-mutations.svg?style=flat-square)](https://www.npmjs.com/package/@netsells/vuex-crud-mutations)
 [![npm](https://img.shields.io/npm/dt/@netsells/vuex-crud-mutations.svg?style=flat-square)](https://npm-stat.com/charts.html?package=@netsells/vuex-crud-mutations&from=2016-04-01)
-[![Travis branch](https://img.shields.io/travis/netsells/vuex-crud-mutations/master.svg?style=flat-square)](https://travis-ci.org/githubUsername/@netsells/vuex-crud-mutations)
+[![Travis branch](https://img.shields.io/travis/netsells/vuex-crud-mutations/master.svg?style=flat-square)](https://travis-ci.org/netsells/vuex-crud-mutations)
 [![Codecov branch](https://img.shields.io/codecov/c/github/netsells/vuex-crud-mutations/master.svg?style=flat-square)](https://codecov.io/github/netsells/vuex-crud-mutations)
 <br />
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
