@@ -1,0 +1,22 @@
+{
+  "projectName": "vuex-crud-mutations",
+  "projectOwner": "netsells",
+  "files": [
+    "readme.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "netsells",
+      "name": "Sam Turrell",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22868432?v=3",
+      "profile": "https://github.com/netsells",
+      "contributions": [
+        "code",
+        "doc",
+        "infra"
+      ]
+    }
+  ]
+}
