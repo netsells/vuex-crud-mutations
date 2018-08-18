@@ -19,7 +19,7 @@ This module generates all that scaffold/boilerplate for you and keeps the crud "
 ## Installation
 
 ```sh 
-yarn add --save @netsells/vuex-crud-mutations
+yarn add --@netsells/vuex-crud-mutations
 ```
 
 ## Usage
