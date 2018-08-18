@@ -14,7 +14,9 @@
 
 ## Why?
 
-// TODO
+Quite often, your vuex mutations contain basic methods to manipulate your set of data. If your app has multiple data sets you end up repeating the same methods multiple times for different entities.
+
+This module generates all that scaffold/boilerplate for you and keeps the crud "verbs" consistent (`set`, `add`, `update`, `delete`).
 
 ## Installation
 
@@ -26,17 +28,21 @@ yarn add --save @netsells/vuex-crud-mutations
 
 In your Vue store add the results of the exported function to your mutations object. We're using the ES6 spread operator here (`...`) but you can use any object merging strategy you like. 
 
-The following examples will be using `user` as our entity. 
+The following examples will be using `user` as our "entity". 
 
 ```js
+// Pull the plugin in
 import crudMutations from '@netsells/vuex-crud-mutations';
 
+// Set up your store
 module.exports = new Vuex.Store({
     state: {
-        members: [],
+        members: [], // Make sure you define your initial data
+        products: [],
     },
     mutations: {
-        ...crudMutations('user'),
+        ...crudMutations('user'), // Generate entity mutations - ensure the entity is singular
+        ...crudMutations('product'), // You can generate multiple entities
     },
 });
 ```
@@ -67,15 +73,20 @@ this.$store.commit('deleteMember', id);
 
 ## FAQ
 
-// TODO
+### Can I use this in namespaced Vuex modules?
 
-## Related
+Yes, simply modify your mutations to include the module namespace e.g. `this.$store.commit('users/addUser', { ... });`
 
-// TODO
+<!--## Related-->
+
+<!--// TODO-->
 
 ## Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars3.githubusercontent.com/u/5918348?v=4" width="100px;"/><br /><sub><b>Sam Turrell</b></sub>](http://samturrell.co.uk)<br />[💻](https://github.com/netsells/vuex-crud-mutations/commits?author=samturrell "Code") [📖](https://github.com/netsells/vuex-crud-mutations/commits?author=samturrell "Documentation") [💡](#example-samturrell "Examples") [⚠️](https://github.com/netsells/vuex-crud-mutations/commits?author=samturrell "Tests") |
+| :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
