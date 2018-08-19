@@ -1,15 +1,16 @@
 language: node_js
 cache:
-  directories:
-  - node_modules
+    directories:
+        - node_modules
 node_js:
-- v10
-- v8
-- v6
+    - v10
+    - v8
+    - v6
 install:
-- npm install -g codecov
+    - npm i
+    - npm install -g codecov
 script:
-- jest --testRegex=.*\\.test\\.js$ && codecov
+    - jest --testRegex=.*\\.test\\.js$ && codecov
 notifications:
-  slack:
-    secure: Ywa+5c84Ek7CGU1mDVE00HA7CYDKXjrPKuPb7bbW3Q+0pEl5CjCDbCw1vBScCC+Vp1VAG5qz+LEqFXS5IgEoBx2XxhNw2Fef1brEA8sudKaM0lk2QVAPUBaKvMttW1KaL//MSX+EG8jLEUh5NJIGYPfjqEj1b67vLcAL8xeW8Jua0xZHxggbW3AqqPnXub1Nu7fmf6QzF4oBcN1tYYk3/PfKm+uOfIkG6CIZn5OOUkU5e+0IhrAbJUxOAaSg23XQKAzen8f1MZGfKETRJYlxsAivDTeglEzc070yhPrIKpjWniwbVIGxdjJuGk8WpXcm2NqyOKLlxtodbU5xy3NmlpiyceJC4YWlbcdjQzSmr910QTJwIcpSAOig0JH14JWmwkk1UByvg2T/F7yGVEWaASloLb+oFaiNLCAP3V68iBtHyyNehtzWV/tIJB7i+NhUZG/7z0NRNvV59YtS6sulSAznC+EQMIuWjR3Ya8i9gZnoGRO2KfhjPfddKADzTgglbtH74AngcsBNVCUXG7mjx2rPcT4y9i4cg+BS9TgoEAdS9ruHoqOmI4ZruWMRCVvo95EDEey8pCXo9/BWuTFu8gGqKLQi9mEHDnfINnBAkbRQf0AEGm/6tcDOzSPCTq7Me7UC1eJKYPlRljYHdywP/ZzRREYi8qzsNseFfCHiwiY=
+    slack:
+        secure: Ywa+5c84Ek7CGU1mDVE00HA7CYDKXjrPKuPb7bbW3Q+0pEl5CjCDbCw1vBScCC+Vp1VAG5qz+LEqFXS5IgEoBx2XxhNw2Fef1brEA8sudKaM0lk2QVAPUBaKvMttW1KaL//MSX+EG8jLEUh5NJIGYPfjqEj1b67vLcAL8xeW8Jua0xZHxggbW3AqqPnXub1Nu7fmf6QzF4oBcN1tYYk3/PfKm+uOfIkG6CIZn5OOUkU5e+0IhrAbJUxOAaSg23XQKAzen8f1MZGfKETRJYlxsAivDTeglEzc070yhPrIKpjWniwbVIGxdjJuGk8WpXcm2NqyOKLlxtodbU5xy3NmlpiyceJC4YWlbcdjQzSmr910QTJwIcpSAOig0JH14JWmwkk1UByvg2T/F7yGVEWaASloLb+oFaiNLCAP3V68iBtHyyNehtzWV/tIJB7i+NhUZG/7z0NRNvV59YtS6sulSAznC+EQMIuWjR3Ya8i9gZnoGRO2KfhjPfddKADzTgglbtH74AngcsBNVCUXG7mjx2rPcT4y9i4cg+BS9TgoEAdS9ruHoqOmI4ZruWMRCVvo95EDEey8pCXo9/BWuTFu8gGqKLQi9mEHDnfINnBAkbRQf0AEGm/6tcDOzSPCTq7Me7UC1eJKYPlRljYHdywP/ZzRREYi8qzsNseFfCHiwiY=
