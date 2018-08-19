@@ -4,7 +4,7 @@ const {
     pluralEntity,
     singular,
     plural,
-} = require('../helpers')('user');
+} = require('../src/helpers').default('user');
 
 describe('helpers', () => {
 

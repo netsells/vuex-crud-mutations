@@ -1,8 +1,15 @@
 /* eslint-disable valid-jsdoc */
 'use strict';
+import helpers from './helpers';
 
-module.exports = (entity) => {
-    const { singular, plural } = require('./helpers')(entity);
+/**
+ * Return CRUD mutations object
+ *
+ * @param {String} entity
+ * @returns {Object}
+ */
+export default (entity) => {
+    const { singular, plural } = helpers(entity);
 
     return {
         /**
@@ -49,4 +56,4 @@ module.exports = (entity) => {
             state[plural()].splice(existingEntityIndex, 1);
         },
     };
-};
+}

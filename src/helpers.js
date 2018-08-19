@@ -4,7 +4,7 @@
  * @param {String} entity
  * @returns {{singularEntity: string, pluralEntity: string, singular: singular, plural: plural}}
  */
-module.exports = (entity) => {
+export default (entity) => {
     const singularEntity = entity.charAt(0).toUpperCase() + entity.slice(1);
     const pluralEntity = `${singularEntity}s`;
 
