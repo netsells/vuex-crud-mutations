@@ -39,7 +39,8 @@
         "prettier": "^1.11.1",
         "regenerator-runtime": "^0.12.1",
         "vue": "^2.5.17",
-        "vuex": "^3.0.1"
+        "vuex": "^3.0.1",
+        "@netsells/eslint-config": "^1.3.0"
     },
     "engines": {
         "npm": ">= 4.0.0"
@@ -92,8 +93,5 @@
         "coverageDirectory": "./coverage/",
         "collectCoverage": true
     },
-    "license": "MIT",
-    "dependencies": {
-        "eslint-config-netsells": "^1.3.0"
-    }
+    "license": "MIT"
 }
