@@ -9,10 +9,10 @@
         "url": "http://samturrell.co.uk"
     },
     "files": [
-        "lib",
-        "dist"
+        "src/",
+        "dist/"
     ],
-    "main": "src/index.js",
+    "main": "dist/index.js",
     "keywords": [
         "vue",
         "vuex",
