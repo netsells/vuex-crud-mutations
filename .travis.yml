@@ -4,8 +4,6 @@ cache:
         - node_modules
 node_js:
     - v10
-    - v8
-    - v6
 install:
     - npm i
     - npm install -g codecov
